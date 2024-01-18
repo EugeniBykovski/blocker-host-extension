@@ -1,10 +1,10 @@
-import { HomePage } from "@/pages/home";
 import { AppProvider } from "./app-providers";
+import { NotAuthPage } from "@/pages/not-auth.page";
 
 export function App() {
   return (
     <AppProvider>
-      <HomePage />
+      <NotAuthPage />
     </AppProvider>
   );
 }
